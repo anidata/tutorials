@@ -105,3 +105,6 @@ venv.bak/
 
 # Desktop Services Store
 .DS_Store
+
+# Desktop Files
+/resources
