@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.7.0-onbuild
+FROM python:2.7-slim
 
 # updating repository sources
 RUN apt-get update -y  
