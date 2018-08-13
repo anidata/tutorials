@@ -1,1 +1,8 @@
 language: python
+python:
+  - "3.6"
+  - "3.7"
+notifications:
+  slack:
+    rooms:
+      secure: lsHu+1GU7bbQtTBA9UIWqLW+QrxB7lXI0uEfn1jgoAoSsbmnoQV50KwiWLLf5iLGhG5jx9R9y9/H8AkraMkeWZs14EISKqYmbh9Y9VHDtzhslW3U02Uz+KwVft/bnkk4cEqgaFtTrrIpPfKHJIAH+lcYgopzXKBX/i9ig5mmi3ZotQXtPOv4XAdzkhnlfw5eCB6H0l+NXfI4RvLfpf9Htbp9ziIdxtC40GEQqVtusY6MdjZ+8UNS4EYEpQ5DcKUFcFafFp7JZqSbiU5gspz8RFWqk0AueRLLW1WozxWOXzkmUvrvJM/HRJpP7oh54GLGQVkmXPKqkAGwNzfghmybTZvXQy5hEnr/wNd4k6Pf3+8j8RZS2ovGc0kGOD1rsGfvkRx7yFud6lJE8+mWZybG+HDgmtT+muG0IspLj7k3iDBuQEOXNYLodoZfkMiQ07CRR8BstcltFUOPtjnjSujMXV0PwMMlU8nIK3XN7wU1sRVIJmPNNCO4IshqunqxDr29m8un9mdatmHRJAuMopgtYbdlRiADx8zkB1HtybM/3ZaQbv1WzctawRUzZiH4u+m6jyY7lAcO2w47zhmngldj5uYVpW/8jpoI5bDd/8jEWt/rfChzofTiPPm5N7aviPryMJQAN5bQSfQDzkTw92uGmPAeNftQJv+pE4Qs+3FhgyY=
