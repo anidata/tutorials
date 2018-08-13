@@ -111,3 +111,4 @@ venv.bak/
 
 # Desktop Files
 /resources
+/data-engineering/preproc
