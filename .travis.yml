@@ -4,7 +4,7 @@ python:
 install:
   - pip install -r requirements.txt
   - git clone https://github.com/bats-core/bats-core.git ~/bats-core
-  - cd ~/bats-core && ./install.sh ~/bin/ && cd ~
+  - cd ~/bats-core && ./install.sh ~/bin/ && cd ${TRAVIS_BUILD_DIR}
 script:
   - bats tests/notebook.bats
 notifications:
