@@ -5,6 +5,6 @@ if [ ! -f ${HOME}/bin/bats ]; then
                 ${HOME}/bats-core
         OLD_DIR=$(pwd)
         cd ${HOME}/bats-core
-        ./install.sh ${HOME}/bin/
+        ./install.sh ${HOME}/bats
         cd ${OLD_DIR}
 fi
