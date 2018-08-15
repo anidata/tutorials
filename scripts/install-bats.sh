@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ! -f ${HOME}/bin/bats ]; then
+if [ ! -f ${HOME}/bats/bin/bats ]; then
         git clone https://github.com/bats-core/bats-core.git \
                 ${HOME}/bats-core
         OLD_DIR=$(pwd)
