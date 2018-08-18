@@ -1,4 +1,6 @@
 setup() {
         # Copy solutions to data for testing
-        cp -r data-engineering/solutions/* data-engineering/data
+        mkdir -p ${BATS_TEST_DIRNAME}/../data-engineering/data
+        cp -r ${BATS_TEST_DIRNAME}/../data-engineering/solutions/* \
+                ${BATS_TEST_DIRNAME}/../data-engineering/data
 }
