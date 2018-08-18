@@ -1,6 +1,6 @@
 #!/bin/bash
 TEST_TEMPLATE=$(cat << 'EOD'
-[ -z "%%NAME%%-setup.bash" ] && load "%%NAME%%-fixtures"
+[ -f "${BATS_TEST_DIRNAME}/%%NAME%%-fixtures.bash" ] && load "${BATS_TEST_DIRNAME}/%%NAME%%-fixtures.bash"
 
 @test "Check %%NOTEBOOK%% runs" {
         run jupyter nbconvert --to notebook --execute "%%NOTEBOOK%%"
